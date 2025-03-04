@@ -11,6 +11,9 @@
     <None Include="..\..\Source\VeilboundProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\shadertoolsconfig.json" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +35,9 @@
     <Filter Include="Source\VeilboundProject">
       <UniqueIdentifier>{D9729062-1200-3164-B629-3FD12E970455}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Source\VeilboundProject\.editorconfig">
+      <Filter>Source\VeilboundProject</Filter>
+    </None>
     <ClCompile Include="..\..\Source\VeilboundProject\TP_PickUpComponent.cpp">
       <Filter>Source\VeilboundProject</Filter>
     </ClCompile>
