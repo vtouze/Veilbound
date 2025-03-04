@@ -21,13 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeVeilboundProject_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x6C863210,
-				0x1669299A,
+				0x6D74D98A,
+				0x869940DB,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_VeilboundProject.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_VeilboundProject.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_VeilboundProject(Z_Construct_UPackage__Script_VeilboundProject, TEXT("/Script/VeilboundProject"), Z_Registration_Info_UPackage__Script_VeilboundProject, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6C863210, 0x1669299A));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_VeilboundProject(Z_Construct_UPackage__Script_VeilboundProject, TEXT("/Script/VeilboundProject"), Z_Registration_Info_UPackage__Script_VeilboundProject, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6D74D98A, 0x869940DB));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

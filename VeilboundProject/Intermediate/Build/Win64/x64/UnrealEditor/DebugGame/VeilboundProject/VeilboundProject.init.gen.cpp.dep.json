@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\veilbound\\veilboundproject\\intermediate\\build\\win64\\unrealeditor\\inc\\veilboundproject\\uht\\veilboundproject.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\veilbound\\veilboundproject\\intermediate\\build\\win64\\x64\\veilboundprojecteditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\veilbound\\veilboundproject\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\veilboundproject\\definitions.veilboundproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
