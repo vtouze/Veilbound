@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VeilboundProject",
+			"Path": "..\\Source\\VeilboundProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VeilboundProjectEditor",
+			"Path": "..\\Source\\VeilboundProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
