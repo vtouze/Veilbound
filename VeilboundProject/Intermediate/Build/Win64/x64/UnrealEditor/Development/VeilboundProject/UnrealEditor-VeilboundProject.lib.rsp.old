@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\VeilboundProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\PlayerCharacter.gen.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\TP_PickUpComponent.gen.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\TP_WeaponComponent.gen.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\VeilboundProject.init.gen.cpp.obj"
@@ -14,6 +15,7 @@
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\VeilboundProjectGameMode.gen.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\VeilboundProjectPlayerController.gen.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\VeilboundProjectProjectile.gen.cpp.obj"
+"E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\PlayerCharacter.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\TP_PickUpComponent.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\TP_WeaponComponent.cpp.obj"
 "E:\GitHub\Veilbound\VeilboundProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\VeilboundProject\VeilboundProject.cpp.obj"

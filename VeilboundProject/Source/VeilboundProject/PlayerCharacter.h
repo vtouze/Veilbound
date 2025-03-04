@@ -12,6 +12,22 @@ class VEILBOUNDPROJECT_API APlayerCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* Camera;
+
+protected:
+	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
+	class UInputMappingContext* InputMappingContext;
+
+	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
+	class UInputAction* MoveAction;
+
+	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
+	class UInputAction* JumpAction;
+
+	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
+	class UInputAction* LookAction;
+
 public:
 	APlayerCharacter();
 
@@ -24,11 +40,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 protected:
-	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
-	class UInputMappingContext* InputMappingContext;
-
-	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
-	class UInputAction* TestAction;
-
-	void TestInput();
+	void Move(const FInputActionValue& Value);
+	void Jump();
+	void Look(const FInputActionValue& Value);
 };
