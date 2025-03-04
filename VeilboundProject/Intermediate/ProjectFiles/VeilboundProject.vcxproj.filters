@@ -33,6 +33,12 @@
     <Filter Include="Source\VeilboundProject">
       <UniqueIdentifier>{D9729062-1200-3164-B629-3FD12E970455}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\VeilboundProject\LevelStreamerActor.cpp">
+      <Filter>Source\VeilboundProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VeilboundProject\LevelStreamerActor.h">
+      <Filter>Source\VeilboundProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\VeilboundProject\PlayerCharacter.cpp">
       <Filter>Source\VeilboundProject</Filter>
     </ClCompile>

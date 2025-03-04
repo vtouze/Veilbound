@@ -76,10 +76,15 @@
 				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Maps/DevTest.umap",
 				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Blueprints/Player/BP_PlayerCharacter.uasset",
 				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Blueprints/Player/BP_GameMode.uasset",
-				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Input/Actions/IA_TestInput.uasset",
 				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Input/Actions/IA_Jump.uasset",
 				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Input/Actions/IA_Look.uasset",
 				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Input/Actions/IA_Move.uasset",
+				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Maps/SubLevels/SubLevel_A.umap",
+				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Maps/SubLevels/SubLevel_B.umap",
+				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Blueprints/SubLevels/BP_LevelStreamerActor.uasset",
+				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Maps/SubLevels/SubLevel_Base.umap",
+				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Maps/SubLevels/SubLevel_C.umap",
+				"E:/GitHub/Veilbound/VeilboundProject/Content/Project/Input/Actions/IA_TestInput.uasset",
 				"E:/GitHub/Veilbound/VeilboundProject/Content/__ExternalActors__/Project/Maps/DevTest/E/0E/L6BM8IENXHVI4L2LG3IZ5B.uasset"
 			]
 		}
