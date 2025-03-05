@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\veilbound\\veilboundproject\\source\\veilboundproject\\flashlight.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\veilbound\\veilboundproject\\intermediate\\build\\win64\\x64\\veilboundprojecteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\veilbound\\veilboundproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\veilboundproject\\definitions.veilboundproject.h",
+            "e:\\github\\veilbound\\veilboundproject\\source\\veilboundproject\\flashlight.h",
+            "e:\\github\\veilbound\\veilboundproject\\intermediate\\build\\win64\\unrealeditor\\inc\\veilboundproject\\uht\\flashlight.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\spotlightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\pointlightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\locallightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\lightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\lightcomponentbase.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\lightcomponentbase.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\lightcomponent.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\locallightcomponent.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\pointlightcomponent.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spotlightcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

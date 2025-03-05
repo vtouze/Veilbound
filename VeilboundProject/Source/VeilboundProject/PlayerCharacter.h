@@ -1,10 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "InputActionValue.h"
+#include "Camera/CameraShakeBase.h"  // Include the camera shake base class
 #include "PlayerCharacter.generated.h"
 
 UCLASS()
@@ -14,6 +13,19 @@ class VEILBOUNDPROJECT_API APlayerCharacter : public ACharacter
 
 	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
+
+	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
+	class USpotLightComponent* FlashlightComponent;
+
+	// Camera shake references
+	UPROPERTY(EditAnywhere, Category = "Camera Shake")
+	TSubclassOf<UCameraShakeBase> IdleCameraShake;
+
+	UPROPERTY(EditAnywhere, Category = "Camera Shake")
+	TSubclassOf<UCameraShakeBase> WalkCameraShake;
+
+	UPROPERTY(EditAnywhere, Category = "Camera Shake")
+	TSubclassOf<UCameraShakeBase> JumpCameraShake;
 
 protected:
 	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
@@ -28,19 +40,28 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
 	class UInputAction* LookAction;
 
+	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
+	class UInputAction* FlashlightAction;
+
 public:
 	APlayerCharacter();
 
+	// Function to trigger camera shakes
+	void PlayCameraShake(TSubclassOf<UCameraShakeBase> CameraShakeClass);
+
 protected:
 	virtual void BeginPlay() override;
-
-public:	
 	virtual void Tick(float DeltaTime) override;
-
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-protected:
+private:
 	void Move(const FInputActionValue& Value);
 	void Jump();
 	void Look(const FInputActionValue& Value);
+
+	void ToggleFlashlight();
+
+	// Camera shake handling
+	void HandleMovementCameraShake(float Speed);
+	void HandleJumpCameraShake();
 };

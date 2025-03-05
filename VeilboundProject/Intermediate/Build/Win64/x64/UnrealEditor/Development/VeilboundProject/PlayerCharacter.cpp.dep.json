@@ -43,7 +43,17 @@
             "d:\\epic games (jeux)\\ue_5.3\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
             "d:\\epic games (jeux)\\ue_5.3\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputcomponent.generated.h",
             "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
-            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h"
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\spotlightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\pointlightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\locallightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\lightcomponent.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\lightcomponentbase.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\lightcomponentbase.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\lightcomponent.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\locallightcomponent.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\pointlightcomponent.generated.h",
+            "d:\\epic games (jeux)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spotlightcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
