@@ -27,6 +27,9 @@ class VEILBOUNDPROJECT_API APlayerCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, Category = "Camera Shake")
 	TSubclassOf<UCameraShakeBase> JumpCameraShake;
 
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float MovementSpeed = 600.0f;
+
 protected:
 	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
 	class UInputMappingContext* InputMappingContext;

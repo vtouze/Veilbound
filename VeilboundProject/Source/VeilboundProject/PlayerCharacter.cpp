@@ -101,8 +101,9 @@ void APlayerCharacter::Move(const FInputActionValue& Value)
 		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-		AddMovementInput(ForwardDirection, InputVector.Y);
-		AddMovementInput(RightDirection, InputVector.X);
+		// Scale movement input by MovementSpeed
+		AddMovementInput(ForwardDirection, InputVector.Y * (MovementSpeed / 600.0f));
+		AddMovementInput(RightDirection, InputVector.X * (MovementSpeed / 600.0f));
 	}
 }
 

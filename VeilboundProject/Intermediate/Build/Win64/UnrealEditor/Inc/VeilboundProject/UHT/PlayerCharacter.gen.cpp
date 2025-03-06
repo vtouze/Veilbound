@@ -55,6 +55,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_JumpCameraShake;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MovementSpeed_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_MovementSpeed;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_InputMappingContext_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_InputMappingContext;
@@ -136,6 +140,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_JumpCameraShake = { "JumpCameraShake", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, JumpCameraShake), Z_Construct_UClass_UClass, Z_Construct_UClass_UCameraShakeBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_JumpCameraShake_MetaData), Z_Construct_UClass_APlayerCharacter_Statics::NewProp_JumpCameraShake_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MovementSpeed_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "PlayerCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, MovementSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MovementSpeed_MetaData), Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MovementSpeed_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_InputMappingContext_MetaData[] = {
 		{ "Category", "EnhancedInput" },
 		{ "ModuleRelativePath", "PlayerCharacter.h" },
@@ -176,6 +187,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_IdleCameraShake,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_WalkCameraShake,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_JumpCameraShake,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MovementSpeed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_InputMappingContext,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MoveAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_JumpAction,
@@ -220,9 +232,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VeilboundProject_Source_VeilboundProject_PlayerCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 570005281U) },
+		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 577676961U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VeilboundProject_Source_VeilboundProject_PlayerCharacter_h_3050808169(TEXT("/Script/VeilboundProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_VeilboundProject_Source_VeilboundProject_PlayerCharacter_h_2092453868(TEXT("/Script/VeilboundProject"),
 		Z_CompiledInDeferFile_FID_VeilboundProject_Source_VeilboundProject_PlayerCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_VeilboundProject_Source_VeilboundProject_PlayerCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
