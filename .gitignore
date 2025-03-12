@@ -73,8 +73,10 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# Marketplace Assets
 VeilboundProject/Content/Village/
 VeilboundProject/Content/OperaHouse/
 VeilboundProject/Content/MMSupermarket/
 VeilboundProject/Content/Trainyard/
 VeilboundProject/Content/ModularHouses/
+VeilboundProject/Content/Dragon_Rise/
